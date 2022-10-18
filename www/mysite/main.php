@@ -33,7 +33,7 @@
 		echo "<tr>";
 		echo "<td>" .$row['id']. "</td>";
 		echo "<td>" .$row['nombre']. "</td>";
-		echo "<td><a href='/detail.php?id=<id>'><img width =50%  src='$row[url_imagen]'/></a></td>";
+		echo "<td><a href='/detail.php?juego_id=$row[id]'><img width =50%  src='$row[url_imagen]'/></a></td>";
 		echo "<td>" .$row['año_salida']. "</td>";
 		echo "<td>" .$row['tematica']. "</td>";
 		echo "</tr>";
